@@ -1,0 +1,172 @@
+body{
+  font-family: 'Montserrat';
+}
+
+#title{
+  background-color: #ff4c68;
+  color: white;
+}
+
+h1{
+  font-family:'Montserrat';
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h2{
+  font-family: 'Montserrat';
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+h3{
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+
+}
+
+/* Navigation Bar */
+
+.navbar{
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+
+}
+
+.nab-link{
+  font-size: 1.2rem;
+  font-family:  'Montserrat-Light'
+}
+
+/* Buttons */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-img{
+  width: 20%;
+  padding-top: 3%;
+  margin-left: 120px;
+  transform: rotate(20deg);
+  position: absolute;
+
+}
+
+/* Features */
+#features{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+
+}
+
+.feature-rows{
+    align-items: center;
+}
+
+.feature-col{
+    text-align: center;
+    padding: 3% 2%;
+
+}
+.feature-icon{
+    color: #ef8172;
+    margin: 5%;
+}
+
+.feature-icon:hover{
+    color: #ff4c68;
+}
+
+/* Testimonials */
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* Press */
+#press{
+
+  text-align: center;
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-col{
+  padding: 3% 2%;
+}
+
+/* CTA */
+#cta{
+  background-color: #ff4c68;
+  color: white;
+  text-align: center;
+  padding: 5% 15%;
+}
+
+
+/* Footer */
+
+#footer{
+
+padding: 7% 0;
+text-align: center;
+}
+.footer-icon{
+  padding: 10px 10px;
+}
+
+
+@media (max-width:1028px) {
+
+#title{
+  text-align: center;
+}
+  .title-img{
+
+    width: 60%;
+    padding-top: 3%;
+    margin-left: 10%;
+    transform:none;
+    position: static;
+
+  }
+
+}
